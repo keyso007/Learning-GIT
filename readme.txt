@@ -22,4 +22,8 @@ This is a note about learning GIT
 	<3> git branch              -> Check currently existing branches, the branch with '*' is current location
 	----------------------------   There is an alnative approach
 	<1> git checkout -b branchName -> Creat and switch to a newly created branch
-	
+3. Merge branches
+	<1> git checkout branchName -> Switch to the branch you want to merge (Usually the master branch)
+	<2> git merge branchName2   -> Merge the changes in branchName2 to branchName
+   Notice: After merging, branchName2 will not exist anymore. 
+
