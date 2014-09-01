@@ -16,4 +16,7 @@ This is a note about learning GIT
 
 # 2014-9-1
 1. Use 'git checkout -- filename' to clear changes that not added to git. (Using 'git add filename')
+2. Creating new branches. 
+	<1> git branch branchName   -> Creating a new branch
+	<2> git checkout branchName -> Switching to the newly created branch
 
