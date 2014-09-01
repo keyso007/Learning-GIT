@@ -27,10 +27,12 @@ This is a note about learning GIT
 	<1> git checkout branchName -> Switch to the branch you want to merge (Usually the master branch)
 	<2> git merge branchName2   -> Merge the changes in branchName2 to branchName
 	<3> git branch -d branchName -> Delete the previous branch
-   Notice: After merging, branchName2 still exist. You have to manually delete the branch if you will not use it anymore. 
+   Notice: After merging, branchName2 still exist. You have to manually delete the branch if you will not use it anymore. It is not likely to recover the deleted branch unless you have a copy of it online. 
 
 4. # Your branch is ahead of 'origin/master' by n commits.
 	<1> When this line is displayed, it means your local files are not synchronous with that on github. 
 	<2> git push origin master  -> Push local master branch to origin branch on github
-   Notice: git push origin branchName, the branchName is not necessarilly 'master'. In many scenarios, for example you want to push a new branch to github sever, namely 'make', then it's nonsense' to excute 'git push origin master' since all your modification is not on 'master' branch. Instead, you should execute 'git push origin make', then you can see a new branch on github. 
+   Notice: 
+   	<1> git push origin branchName, the branchName is not necessarilly 'master'. In many scenarios, for example you want to push a new branch to github sever, namely 'make', then it's nonsense' to excute 'git push origin master' since all your modification is not on 'master' branch. Instead, you should execute 'git push origin make', then you can see a new branch on github. 
+	<2> The 'push' operation is done in unit of branch. The incluence will be confined to only one branch on github sever. 
 
