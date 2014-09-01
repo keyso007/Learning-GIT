@@ -20,4 +20,6 @@ This is a note about learning GIT
 	<1> git branch branchName   -> Creating a new branch
 	<2> git checkout branchName -> Switching to the newly created branch
 	<3> git branch              -> Check currently existing branches, the branch with '*' is current location
-
+	----------------------------   There is an alnative approach
+	<1> git checkout -b branchName -> Creat and switch to a newly created branch
+	
