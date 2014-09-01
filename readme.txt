@@ -10,7 +10,7 @@ This is a note about learning GIT
 
 2. The procedure moving back to the last version is like this. 
 	git reset --hard HEAD^
-   Notice: HEAD stands for present version, where HEAD^ stands for last version. You can go to even earlier version by cascading more '^' characters.` 
+   Notice: HEAD stands for present version, where HEAD^ stands for last version. You can go to even earlier version by cascading more '^' characters. 
 
 3. User 'git reflog' to find your previous operations on the version control, and get version numbers for each of the previous modified versions. 
 
@@ -35,4 +35,10 @@ This is a note about learning GIT
    Notice: 
    	<1> git push origin branchName, the branchName is not necessarilly 'master'. In many scenarios, for example you want to push a new branch to github sever, namely 'make', then it's nonsense' to excute 'git push origin master' since all your modification is not on 'master' branch. Instead, you should execute 'git push origin make', then you can see a new branch on github. 
 	<2> The 'push' operation is done in unit of branch. The incluence will be confined to only one branch on github sever. 
+
+5. Observe the topology of the workspace
+	<1> --graph          -> Topology display
+	<2> --abbrev-commit  -> Short version of Hash
+	<3> --pretty=oneline -> Single line for each commit
+   Example: git log --graph --pretty=oneline --abbrev-commit
 
