@@ -19,4 +19,5 @@ This is a note about learning GIT
 2. Creating new branches. 
 	<1> git branch branchName   -> Creating a new branch
 	<2> git checkout branchName -> Switching to the newly created branch
+	<3> git branch              -> Check currently existing branches, the branch with '*' is current location
 
