@@ -42,3 +42,6 @@ This is a note about learning GIT
 	<3> --pretty=oneline -> Single line for each commit
    Example: git log --graph --pretty=oneline --abbrev-commit
 
+6. Download a branch from github
+	<1> git checkout -b localBranch origin/branchName -> fetch the branch from sever
+
