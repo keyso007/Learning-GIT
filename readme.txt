@@ -36,9 +36,3 @@ This is a note about learning GIT
    	<1> git push origin branchName, the branchName is not necessarilly 'master'. In many scenarios, for example you want to push a new branch to github sever, namely 'make', then it's nonsense' to excute 'git push origin master' since all your modification is not on 'master' branch. Instead, you should execute 'git push origin make', then you can see a new branch on github. 
 	<2> The 'push' operation is done in unit of branch. The incluence will be confined to only one branch on github sever. 
 
-
----------------------
-NOTICE: 
-
-
-Here are some modification on master branch! 
