@@ -1,6 +1,7 @@
 This is a note about learning GIT
 -- Starting from 2014-8-31
 
+# 2014-8-31
 1. The procedure of updating files stored should be like this: 
 	<1> modify the files
 	<2> add file to git (git add xxxx)
@@ -12,4 +13,7 @@ This is a note about learning GIT
    Notice: HEAD stands for present version, where HEAD^ stands for last version. You can go to even earlier version by cascading more '^' characters.` 
 
 3. User 'git reflog' to find your previous operations on the version control, and get version numbers for each of the previous modified versions. 
+
+# 2014-9-1
+1. Use 'git checkout -- filename' to clear changes that not added to git. (Using 'git add filename')
 
