@@ -45,3 +45,7 @@ This is a note about learning GIT
 6. Download a branch from github
 	<1> git checkout -b localBranch origin/branchName -> fetch the branch from sever
 
+# 2014-9-3
+1. Add all tracked files to git
+	<1> Using this command -> git add -A
+
