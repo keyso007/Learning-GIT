@@ -37,9 +37,9 @@ This is a note about learning GIT
 	<2> The 'push' operation is done in unit of branch. The incluence will be confined to only one branch on github sever. 
 
 5. Observe the topology of the workspace
-	<1> --graph          -> Topology display
-	<2> --abbrev-commit  -> Short version of Hash
-	<3> --pretty=oneline -> Single line for each commit
+	<1> log --graph          -> Topology display
+	<2> log --abbrev-commit  -> Short version of Hash
+	<3> log --pretty=oneline -> Single line for each commit
    Example: git log --graph --pretty=oneline --abbrev-commit
 
 6. Download a branch from github
